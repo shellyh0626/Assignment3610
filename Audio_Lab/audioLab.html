@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Lab</title>
+    <link rel="stylesheet" href="audioLab.css">
+</head>
+
+<body>
+    <audio id="aud1">
+        <source src="fur-elise.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="aud2">
+        <source src="chopin-nocturne.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="aud3">
+        <source src="bach-fugue.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="aud4">
+        <source src="schumann-six moments musicaux.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="aud5">
+        <source src="debussy-golliwog-cake-walk.mp3" type="audio/mpeg">
+    </audio>
+
+    <table>
+        <tr>
+            <td>
+                <h2>Piano Music Box</h2>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Beethoven: Für Elise</p><button onclick="playAudio1()" type="button">Play</button>
+        </tr>
+        <tr>
+            <td>
+                <p>Chopin: Nocturne</p> <button onclick="playAudio2()" type="button">Play</button>
+        </tr>
+        <tr>
+            <td>
+                <p>Bach: Fugue</p> <button onclick="playAudio3()" type="button">Play</button>
+        </tr>
+        <tr>
+            <td>
+                <p>Schumann: Six moments musicaux</p><button onclick="playAudio4()" type="button">Play</button>
+        </tr>
+        <tr>
+            <td>
+                <p>Debussy: Golliwog's Cake Walk</p><button onclick="playAudio5()" type="button">Play</button>
+        </tr>
+        <tr>
+            <td>
+                <p>---HIT STOP BEFORE PLAYING NEXT SONG---</p><button onclick="stopAudio()" type="button">Stop</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <script>
+        var s1 = document.getElementById("aud1");
+        var s2 = document.getElementById("aud2");
+        var s3 = document.getElementById("aud3");
+        var s4 = document.getElementById("aud4");
+        var s5 = document.getElementById("aud5");
+
+        function playAudio1() {
+            s1.play();
+        }
+
+        function playAudio2() {
+            s2.play();
+        }
+
+        function playAudio3() {
+            s3.play();
+        }
+
+
+        function playAudio4() {
+            s4.play();
+        }
+
+        function playAudio5() {
+            s5.play();
+        }
+
+        function stopAudio() {
+            s1.pause();
+            s2.pause();
+            s3.pause();
+            s4.pause();
+            s5.pause();
+        }
+    </script>
+</body>
+
+</html>

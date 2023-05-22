@@ -1,0 +1,34 @@
+table {
+    margin: 4em auto;
+    width: 30rem;
+    height: 30rem;
+    border: 3px solid black;
+    background: #c9f4f4;
+    border-radius: 12%;
+}
+
+td {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+button {
+    width: 25%;
+    padding: 5px 10px;
+    background: #b6aee4;
+    border-radius: 6px;
+    border-color: #7d73b7;
+    font-size: 14px;
+}
+
+h2 {
+    color: #112378;
+    margin: auto;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px #727d7d;
+}
+
+p {
+    color: #112378;
+    font-weight: bold;
+}

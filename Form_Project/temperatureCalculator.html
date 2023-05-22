@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="temperatureCalculator.css">
+    <script src="temperatureCalculator.js"> </script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="number" id="inputCelsius" placeholder="Enter Celsius" />
+            <button onclick="convertCToF(); clearFarenheit()">Convert to Farenheit</button>
+        </div>
+        <div>
+            <input type="number" id="inputFarenheit" placeholder="Enter Farenheit" />
+            <button onclick="convertFToC(); clearCelsius()">Convert to Celsius</button>
+        </div>
+        <div>
+            <button onclick="reset()">Reset</button>
+        </div>
+        <h1 id="solution"></h1>
+    </div>
+</body>
+
+</html>

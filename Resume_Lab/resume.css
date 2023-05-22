@@ -1,0 +1,43 @@
+a {
+    padding: 1em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+p,
+h5,
+h6,
+tr,
+td,
+li {
+    text-align: center;
+}
+
+th {
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+li {
+    padding-top: 2px;
+}
+
+h6 {
+    padding-top: 20px;
+}
+
+.anchor {
+    padding-top: 5%;
+}
+
+.space {
+    padding-bottom: 1000px;
+}
